@@ -1,10 +1,36 @@
-.container{
-    display: flex;
+* {
+  font-family: "Source Code Pro";
+  font-weight: 400;
+  margin: 0;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.6) transparent;
 }
 
-.others{
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.08);
+  /* backdrop-filter: blur(12px); */
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  /* backdrop-filter: blur(8px); */
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.3);
+  transition: background 0.3s ease;
+}
+
+.container {
+  display: flex;
+  margin: 10px 10px;
+}
+
+/* .others{
     flex: 4;
-    /* background-color: darkcyan; */
-}   
-
-
+    background-color: darkcyan; 
+}    */
