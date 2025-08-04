@@ -1,0 +1,29 @@
+ .chart{
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+
+.chartContainer {
+  margin: 30px;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  height: 35%;
+}
+
+.chartTitle {
+  margin-bottom: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.homeWidgets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px;
+}
